@@ -30,6 +30,6 @@ With these eigenvalues, it is a straight forward exercise in linear algebra to f
 \[\left|\pm\right\rangle = \frac1{\sqrt2}\left[\sqrt{1 \pm \frac{\delta}{\sqrt{1+\delta^2}}}\left|\uparrow\right\rangle + e^{-i\phi} \sqrt{1 \mp \frac{\delta}{\sqrt{1+\delta^2}}}\left|\downarrow\right\rangle \right]\]
 </div>
 
-where we have defined <span>\(\delta = \Delta/\alpha p\)</span> and <span>\(\phi\)</span> by <span>\(p_y+ip_x = p e^{i\phi})</span>. Note what happens when <span>\(p_{x,y} \rightarrow -p_{x,y}\)</span> the occupations stay the same. However, if we just look at one energy, <span>\(\epsilon_-(p)\)</span> the ground state energy, we see that the state we get when <span>\(p_{x,y} \rightarrow -p_{x,y}\)</span> is almost orthogonal to the original state. 
+where we have defined <span>\(\delta = \Delta/\alpha p\)</span> and <span>\(\phi\)</span> by <span>\(p_y+ip_x = p e^{i\phi}\)</span>. Note what happens when <span>\(p_{x,y} \rightarrow -p_{x,y}\)</span> the occupations stay the same. However, if we just look at one energy, <span>\(\epsilon_-(p)\)</span> the ground state energy, we see that the state we get when <span>\(p_{x,y} \rightarrow -p_{x,y}\)</span> is almost orthogonal to the original state. 
 
 [This post will be updated later with figures.]

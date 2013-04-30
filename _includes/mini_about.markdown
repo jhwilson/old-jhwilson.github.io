@@ -1,1 +1,1 @@
-Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit?
+A blog about general physics, condensed matter physics, mathematical physics, and sometimes pure math with digressions into writing style, LaTeX, presentation style, and other tools for research. Expect lots of math and digressions into writing style, LaTeX, presentation style, and other tools for research.

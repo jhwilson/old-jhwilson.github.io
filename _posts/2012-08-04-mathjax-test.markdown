@@ -4,18 +4,12 @@ title: MathJax Test
 ---
 Here's some mathjax markup:
 
-<div>
-\[\begin{aligned}
-\dot{x} &amp; = \sigma(y-x) \\
-\dot{y} &amp; = \rho x - y - xz \\
-\dot{z} &amp; = -\beta z + xy
-\end{aligned} \]
-</div>
+$$\begin{aligned}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy
+\end{aligned} $$
 
 Does this work?
 
-An inline example:
-<span>
-\(\sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}\)
-</span>
-should work fine.
+An inline example: $$ \sum_{n=1}^\infty \frac1{n^2} = \frac{\pi^2}{6}$$ should work fine.

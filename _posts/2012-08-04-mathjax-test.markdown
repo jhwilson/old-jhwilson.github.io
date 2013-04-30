@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MathJax Test
+published: false
 ---
 Here's some mathjax markup:
 

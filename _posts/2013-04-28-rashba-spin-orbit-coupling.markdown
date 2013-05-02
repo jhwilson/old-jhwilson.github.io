@@ -4,9 +4,11 @@ title: Spin-orbit coupled Hamiltonian
 ---
 
 For applications in many parts of condensed matter physics and cold atoms physics, we use what is known as the Rashba spin-orbit coupled Hamiltonian. This Hamiltoninan is so-named because it couples momentum $$\mathbf{p}$$
-to the spin $$\mathbf{S}=\frac12\sigma$$.
+to the spin $$\mathbf{S}=\frac12\sigma$$ where $$ \sigma = (\sigma_x,\sigma_y,\sigma_z)$$ are the Pauli matrices and $$\mathbf{p}=(p_x,p_y,p_z)$$ is a vector  of momentum operators:
 
 $$ H = \frac{p^2}{2m} + \alpha (\boldsymbol{\sigma} \times \mathbf{p})\cdot \hat{\mathbf{z}} + \Delta \sigma_z. $$
+
+$$m$$ is the mass, $$\alpha$$ is the spin-orbit coupling strength, and $$\Delta$$ is some Zeeman field (it acts as magnetic field on the spin).
 
 In this post, we go through the calculation of the energy spectrum and eigenvectors -- a straight forward exercise in undergraduate linear algebra. 
 

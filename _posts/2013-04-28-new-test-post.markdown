@@ -26,7 +26,7 @@ where we have defined $$\phi$$ by $$p_y+ip_x = p e^{i\phi}$$. Note that when $$p
 
 The energy bands themselves look like this
 
-<img class="displayed" src="Energy-splitting-rashba-so.png" alt="Energy bands for a Rashba spin-orbit coupled material" />
+<img class="displayed" src="/img/Energy-splitting-rashba-so.png" alt="Energy bands for a Rashba spin-orbit coupled material" />
 
 where the vertical axis is energy (and for this particular example, $$m=1$$, $$\alpha = 3$$, and $$\Delta=2$$). Interestingly, the introduction of $$\Delta$$ actually causes the gap to open up -- the dotted lines are for when $$\Delta=0$$.
 

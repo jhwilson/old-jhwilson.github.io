@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title></title>
+ <link href="http://jhwilson.com/atom.xml" rel="self"/>
+ <link href="http://jhwilson.com"/>
+ <updated>2013-05-16T13:20:08-04:00</updated>
+ <id>http://jhwilson.com</id>
+ <author>
+   <name></name>
+ </author>
+ 
+ 
+ <entry>
+   <title>Use GmailTeX to compose and view emails with LaTeX</title>
+   <link href="http://jhwilson.com/2013/05/16/gmailtex/"/>
+   <updated>2013-05-16T00:00:00-04:00</updated>
+   <id>http://jhwilson.com/2013/05/16/gmailtex</id>
+   <content type="html">&lt;p&gt;I’ve received numerous emails with pseudo-LaTeX in them, and I’ve composed many emails as well. My normal solution is to convert LaTeX to unicode with the helpful Mac application &lt;a href=&quot;http://www.svenkreiss.com/UnicodeIt&quot;&gt;Unicodeit&lt;/a&gt;. However, this method is incomplete and misses some of the more complicated LaTeX.&lt;/p&gt;
+
+&lt;p&gt;To address this, there is an extension to gmail called &lt;a href=&quot;http://alexeev.org/gmailtex.html&quot;&gt;GmailTeX&lt;/a&gt; available on Chrome, Firefox, Safari, and Opera (also it has a bookmarklet for any other browser). &lt;/p&gt;
+
+&lt;p&gt;If someone sends you an email in pseudo-LaTeX it can try to parse what the math with &lt;strong&gt;simple math&lt;/strong&gt;. The resulting output is kind of what you’d get by using Unicodeit. Or, if someone sends you LaTeX inside dollar signs (i.e., $ […] $), then it can just compile that to LaTeX for you with its &lt;strong&gt;rich math&lt;/strong&gt; function.&lt;/p&gt;
+
+&lt;p&gt;But best of all, when you compose emails and use the &lt;strong&gt;rich math&lt;/strong&gt; function, it creates an image of your math hosted on a remote server. They don’t need to have GmailTeX installed unless you decide to send them the code itself.&lt;/p&gt;
+
+&lt;p&gt;The best collaborative apps require little to no commitment for collaborators to use, and this is one of those cases. Collaborators will just receive email with LaTeX images without needing to install anything.&lt;/p&gt;
+
+&lt;p&gt;The only issue that I’ve found from playing around with this extension is that the receiver may have to flag your email as “trustworthy” and/or allow images from remote servers to be viewed in their email client. Otherwise, they may not see any mathematics. Additionally, as you might have guessed, the emails won’t be viewable in an offline mode. Unless you’re going through these emails on an airplane though, I don’t think that should be too big of an issue.&lt;/p&gt;
+
+&lt;p&gt;(h/t Brian Danielak)&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Spin-orbit coupled Hamiltonian</title>
+   <link href="http://jhwilson.com/2013/04/28/rashba-spin-orbit-coupling/"/>
+   <updated>2013-04-28T00:00:00-04:00</updated>
+   <id>http://jhwilson.com/2013/04/28/rashba-spin-orbit-coupling</id>
+   <content type="html">&lt;p&gt;For applications in many parts of condensed matter physics and cold atoms physics, we use what is known as the Rashba spin-orbit coupled Hamiltonian. This Hamiltoninan is so-named because it couples momentum &lt;span&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbf{p}&lt;/script&gt;&lt;/span&gt;
+to the spin &lt;script type=&quot;math/tex&quot;&gt;\mathbf{S}=\frac12\sigma&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt; \sigma = (\sigma_x,\sigma_y,\sigma_z)&lt;/script&gt; are the Pauli matrices and &lt;script type=&quot;math/tex&quot;&gt;\mathbf{p}=(p_x,p_y,p_z)&lt;/script&gt; is a vector  of momentum operators:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt; H = \frac{p^2}{2m} + \alpha (\boldsymbol{\sigma} \times \mathbf{p})\cdot \hat{\mathbf{z}} + \Delta \sigma_z. &lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; is the mass, &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt; is the spin-orbit coupling strength, and &lt;script type=&quot;math/tex&quot;&gt;\Delta&lt;/script&gt; is some Zeeman field (it acts as magnetic field on the spin).&lt;/p&gt;
+
+&lt;p&gt;In this post, we go through the calculation of the energy spectrum and eigenvectors – a straight forward exercise in undergraduate linear algebra. &lt;/p&gt;
+
+&lt;p&gt;First of all, instead of the normal method of finding eigenvectors, we note that we can rewrite this Hamiltonian in the form&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt; H = \frac{p^2}{2m} + \mathbf{b}(p) \cdot \boldsymbol{\sigma} &lt;/script&gt;
+
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\mathbf{b}(p) = (\alpha p_y, -\alpha p_x, \Delta)&lt;/script&gt;. Now, &lt;script type=&quot;math/tex&quot;&gt;\mathbf{b}(p)&lt;/script&gt; represents a point on the Bloch sphere, and so we expect the eigenvectors to be parallel and anti-parallel to this vector. The energies in this case are very straight forward and amount to the positive and negative of &lt;script type=&quot;math/tex&quot;&gt;\lvert\mathbf{b}(p)\rvert&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt; \epsilon_\pm(p) = \frac{p^2}{2m} \pm \sqrt{ \alpha^2 p^2 + \Delta^2}. &lt;/script&gt;
+
+&lt;p&gt;With these eigenvalues, it is a straight forward exercise in linear algebra to find the eigenvectors. After a bit of algebra, the eigenvectors of &lt;script type=&quot;math/tex&quot;&gt;H&lt;/script&gt; in terms of the eigenvectors of &lt;script type=&quot;math/tex&quot;&gt;\sigma_z&lt;/script&gt; ( &lt;script type=&quot;math/tex&quot;&gt;\sigma_z\left\lvert\uparrow\right\rangle = \left\lvert\uparrow\right\rangle&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\sigma_z\left\lvert\uparrow\right\rangle = -\left\lvert\uparrow\right\rangle&lt;/script&gt; ) are&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\lvert\pm\right\rangle = \frac1{\sqrt2}\left[\sqrt{1 \pm \frac{\Delta}{\sqrt{\Delta^2+\alpha^2 p^2}}}\left\lvert\uparrow\right\rangle + e^{-i\phi} \sqrt{1 \mp \frac{\Delta}{\sqrt{\Delta^2+\alpha^2 p^2}}}\left\lvert\downarrow\right\rangle \right]&lt;/script&gt;
+
+&lt;p&gt;where we have defined &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;p_y+ip_x = p e^{i\phi}&lt;/script&gt;. Note that when &lt;script type=&quot;math/tex&quot;&gt;p_{x,y} \rightarrow -p_{x,y}&lt;/script&gt;, the occupations stay the same. However, if we just look at one energy, &lt;script type=&quot;math/tex&quot;&gt;\epsilon_-(p)&lt;/script&gt; the ground state energy, we see that the state we get when &lt;script type=&quot;math/tex&quot;&gt;p_{x,y} \rightarrow -p_{x,y}&lt;/script&gt; is almost orthogonal to the original state. &lt;/p&gt;
+
+&lt;p&gt;The energy bands themselves look like this&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;displayed&quot; src=&quot;/img/Energy-splitting-rashba-so.png&quot; alt=&quot;Energy bands for a Rashba spin-orbit coupled material&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;where the vertical axis is energy (and for this particular example, &lt;script type=&quot;math/tex&quot;&gt;m=1&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\alpha = 3&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\Delta=2&lt;/script&gt;). Interestingly, the introduction of &lt;script type=&quot;math/tex&quot;&gt;\Delta&lt;/script&gt; actually causes the gap to open up – the dotted lines are for when &lt;script type=&quot;math/tex&quot;&gt;\Delta=0&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, if we have a bunch of fermions filling up these energies, if we set the chemical potential to be in the gap, we would find that the only excitations would states that are spin-locked to the momentum.&lt;/p&gt;
+
+&lt;p&gt;Many things can be done with this Hamiltonian to interesting effect. It finds its way into &lt;a href=&quot;http://arxiv.org/abs/1102.3945&quot;&gt;cold atom physics&lt;/a&gt; as well as &lt;a href=&quot;http://books.google.com/books?hl=en&amp;amp;lr=&amp;amp;id=LQhcSCuzC3IC&quot;&gt;condensed matter&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Justin Howard Wilson's blog</title>
+		<description>A blog about general physics, condensed matter physics, mathematical physics, and sometimes pure math with digressions into writing style, LaTeX, presentation style, and other tools for research. Expect lots of math.</description>
+		<link>http://jhwilson.com</link>
+		<atom:link href="http://jhwilson.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Use GmailTeX to compose and view emails with LaTeX</title>
+				<description> http://jhwilson.com/2013/05/16/gmailtex/ </description>
+				<pubDate>Thu, 16 May 2013 00:00:00 -0400</pubDate>
+				<link>http://jhwilson.com/2013/05/16/gmailtex/</link>
+				<guid isPermaLink="true">http://jhwilson.com/2013/05/16/gmailtex/</guid>
+			</item>
+		
+			<item>
+				<title>Spin-orbit coupled Hamiltonian</title>
+				<description> http://jhwilson.com/2013/04/28/rashba-spin-orbit-coupling/ </description>
+				<pubDate>Sun, 28 Apr 2013 00:00:00 -0400</pubDate>
+				<link>http://jhwilson.com/2013/04/28/rashba-spin-orbit-coupling/</link>
+				<guid isPermaLink="true">http://jhwilson.com/2013/04/28/rashba-spin-orbit-coupling/</guid>
+			</item>
+		
+	</channel>
+</rss>

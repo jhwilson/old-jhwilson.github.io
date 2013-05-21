@@ -1,7 +1,7 @@
 paginate: 5
 pygments: true
 permalink: /:year/:month/:day/:title/
-markdown: rdiscount
+markdown: kramdown
 name: Justin Howard Wilson's blog
 description: A blog about general physics, condensed matter physics, mathematical physics, and sometimes pure math with digressions into writing style, LaTeX, presentation style, and other tools for research. Expect lots of math.
 url: http://jhwilson.com

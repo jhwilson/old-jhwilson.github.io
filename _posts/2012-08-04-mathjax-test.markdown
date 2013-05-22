@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MathJax Test
-published: false
+published: true
 ---
 Here's some mathjax markup:
 

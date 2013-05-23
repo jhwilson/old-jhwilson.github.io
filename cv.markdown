@@ -7,7 +7,7 @@ title: CV
 
 Department of Physics  
 University of Maryland, CP  
-<contact@jhwilson.com>
+<a href="mailto:contact@jhwilson.com">contact@jhwilson.com</a>
 
 ## Education
 Ph.D. Physics, University of Maryland, 2007 -- Present  

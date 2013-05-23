@@ -19,7 +19,10 @@ layout: nil
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+     {{ post.content | xml_escape }}
+     {{"<p><em>Note: mathematical formulas may not appear correctly in your feed reader.  Click through to the original post to see them.</em></p>"|xml_escape }}
+   </content>
  </entry>
  {% endfor %}
  

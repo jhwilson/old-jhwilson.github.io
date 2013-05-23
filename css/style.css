@@ -115,7 +115,7 @@ header .subtitle {
   width: 200px;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
   color: #5b6b43;
 }

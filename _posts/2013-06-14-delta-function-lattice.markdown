@@ -11,7 +11,7 @@ $$ U(x) = \alpha\sum_{n=-\infty}^\infty \delta(x - n a).$$
 
 Visualized, it looks like the picture:
 
-<img class="displayed" src="../img/Delta-fcn-lattice.png" alt="Delta function lattice." />
+<img class="displayed" src="/img/Delta-fcn-lattice.png" alt="Delta function lattice." />
 
 The time-independent Schr&ouml;dinger equation takes the form
 
@@ -68,7 +68,7 @@ This is an equation which relates the energy to the quasi-momentum. Since $$\cos
 
 Armed with this equation, we can use $$ q$$ and an integer to label our energies and we obtain the following energy bands by just solving for $$E$$ (setting $$m = 10$$, $$ a = 1$$, and $$ \alpha = 0.3 $$)
 
-<img class="displayed" src="../img/Bands-delta-fcn-lattice.png" alt="Energy bands in the delta-function lattice." />
+<img class="displayed" src="/img/Bands-delta-fcn-lattice.png" alt="Energy bands in the delta-function lattice." />
 
 The dotted lines in this plot represent the spectrum if there were no delta-function potentials (displaced in energy by $$ \alpha / a $$ for clarity). Notice how the introduction of the delta-functions opens up gaps in this energy spectrum, so that there are some energies that are inaccessible. The gaps actually open up when $$\lvert f(E)\rvert \geq 1$$ since there is no solution to our equation there. This energy gap for small $$\alpha$$ just goes like $$\alpha/a$$, vanishing as we'd expect when $$\alpha = 0$$.
 
@@ -76,7 +76,7 @@ Notice that in this energy spectrum, we see that if $$q \rightarrow -q$$ we get 
 
 Additionally, if the energy ever goes negative the solutions turn from plane waves $$e^{\pm i k (x-na)}$$ into functions localized around the delta functions $$e^{\pm\kappa(x-na)}$$. In fact, the wave functions look like this for a $$q=0$$ state:
 
-<img class="displayed" src="../img/Localized-states-delta-fcn-lattice.png" alt="Negative energy localized states in delta-function lattice with alpha less than 0." />
+<img class="displayed" src="/img/Localized-states-delta-fcn-lattice.png" alt="Negative energy localized states in delta-function lattice with alpha less than 0." />
 
 These only appear when $$\alpha <0$$, and are related to the fact that the delta-function potential has a bound state. Additionally, only one band can ever have this state. This is due to the fact that the oscillatory sine and cosine change to their non-oscillatory hyperbolic counterparts. However, these states in the delta-function lattice are spread out throughout the crystal, and can not be said to be "localized" to a specific site --- they still all have a definite quasi-momentum.
 

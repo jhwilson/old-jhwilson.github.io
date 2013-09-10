@@ -5,7 +5,9 @@ title: CMT Journal Club at UMD
 
 # CMT Journal Club at UMD
 
-This webpage is to keep track of what papers are being read for the journal club at UMD
+[Google group](https://groups.google.com/d/forum/cmt-journal-club)
+
+This webpage is to keep track of what papers are being read for the journal club at UMD.
 
 ## Fall 2013 -- Topological States of Matter
 
@@ -46,7 +48,7 @@ Other relevant references/information:
 
 Title:	[Floquet Topological Insulators](http://dx.doi.org/10.1002/pssr.201206451)
 
-Reference: J. Cayssol, B. D\'ora, F. Simon, and R. Moessner, [Phys. Status Solidi **7**, 101](http://dx.doi.org/10.1002/pssr.201206451) (2013)
+Reference: J. Cayssol, B. Dóra, F. Simon, and R. Moessner, [Phys. Status Solidi **7**, 101](http://dx.doi.org/10.1002/pssr.201206451) (2013)
 
 Presenter: TBA
 

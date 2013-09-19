@@ -21,8 +21,9 @@ Presenter: Justin Wilson
 
 Other relevant references/information:
 
-- D.J. Thouless, M. Kohmoto, M.P. Nightingale, and M. den Nijs, [Phys. Rev. Lett. **49**, 405](http://prl.aps.org/abstract/PRL/v49/i6/p405_1) (1982).
-- B.A. Bernevig, T.L. Hughes, and 	S.C. Zhang, [Science **314**, 1757](http://www.sciencemag.org/content/314/5806/1757.abstract?sid=c7b6886b-d7a5-4b01-9936-a0fdc2be43cf) (2006).
+- Topological origins of Quantum Hall conductance: D.J. Thouless, M. Kohmoto, M.P. Nightingale, and M. den Nijs, [Phys. Rev. Lett. **49**, 405](http://prl.aps.org/abstract/PRL/v49/i6/p405_1) (1982).
+- Proposal for Quantum Spin Hall: B.A. Bernevig, T.L. Hughes, and 	S.C. Zhang, [Science **314**, 1757](http://www.sciencemag.org/content/314/5806/1757.abstract?sid=c7b6886b-d7a5-4b01-9936-a0fdc2be43cf) (2006).
+- Theory and Experiment technical details of quantum spin hall: M. König et al., [JPSJ **77**, 031007 (2008)](http://jpsj.ipap.jp/link?JPSJ/77/031007/)
 
 ### September 26
 
@@ -30,7 +31,7 @@ Title: [Three-Dimensional Topological Insulators](http://www.annualreviews.org/d
 
 Reference: M.Z. Hasan and J.E. Moore, [Ann. Rev. Cond. Matt. Phys. **2**, 55](http://www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-062910-140432) (2011).
 
-Presenter: TBA
+Presenter: Juraj Radic
 
 Other relevant references/information:
 
@@ -114,7 +115,7 @@ Presenter: TBA
 
 Other relevant references/information:
 
-### November 28
+### November 26
 
 Title: [Topological insulators and superconductors](http://dx.doi.org/10.1103/RevModPhys.83.1057) -- **Part 2**
 

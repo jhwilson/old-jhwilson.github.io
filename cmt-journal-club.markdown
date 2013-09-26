@@ -35,13 +35,22 @@ Presenter: Juraj Radic
 
 Other relevant references/information:
 
+- M.Z. Hasan and C.L. Kane, [Rev. Mod. Phys. **82**, 3045 (2010)](http://link.aps.org/doi/10.1103/RevModPhys.82.3045)
+- X.-L. Qi and S.-C. Zhang, [Rev. Mod. Phys. **83**, 1057 (2011)](http://dx.doi.org/10.1103/RevModPhys.83.1057)
+
+Original Papers:
+
+- J.E. Moore and L. Balents, [Phys. Rev. B **75**, 121306 (2007)](http://link.aps.org/doi/10.1103/PhysRevB.75.121306)
+- Liang Fu, C.L. Kane, and E.J. Mele, [Phys. Rev. Lett. **98**, 106803 (2007)](http://link.aps.org/doi/10.1103/PhysRevLett.98.106803)
+- Rahul Roy, [Phys. Rev. B **79**, 195321 (2009)](http://link.aps.org/doi/10.1103/PhysRevB.79.195321)
+
 ### October 3
 
 Title:	[Spin-helical transport in normal and superconducting topological insulators](http://dx.doi.org/10.1002/pssb.201248385)
 
 Reference: G. Tkachov and E.M. Hankiewicz, [Phys. Status Solidi **250**, 215 (2013)](http://dx.doi.org/10.1002/pssb.201248385)
 
-Presenter: TBA
+Presenter: Zachary Raines
 
 Other relevant references/information:
 

@@ -60,9 +60,10 @@ Title:	[Floquet Topological Insulators](http://dx.doi.org/10.1002/pssr.201206451
 
 Reference: J. Cayssol, B. Dóra, F. Simon, and R. Moessner, [Phys. Status Solidi **7**, 101](http://dx.doi.org/10.1002/pssr.201206451) (2013)
 
-Presenter: TBA
+Presenter: Aydin Cem Keser
 
 Other relevant references/information:
+- N.H. Lindner, G. Refael, and V. Galitski, [Nature Phys. **7**, 490 (2011)](http://dx.doi.org/10.1038/nphys1926)
 
 ### October 17
 
@@ -70,7 +71,7 @@ Title: [Introduction to Topological Superconductivity and Majorana Fermions](htt
 
 Reference: M. Leijnse and K Flensberg, [Semiconduct. Sci. Tech. **27**, 124003](http://dx.doi.org/10.1088/0268-1242/27/12/124003) (2012).
 
-Presenter: TBA
+Presenter: Andrew Allocca
 
 Other relevant references/information:
 

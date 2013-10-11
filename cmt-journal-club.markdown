@@ -53,6 +53,7 @@ Reference: G. Tkachov and E.M. Hankiewicz, [Phys. Status Solidi **250**, 215 (20
 Presenter: Zachary Raines
 
 Other relevant references/information:
+
 - X.-L. Qi, S.-C. Zhang, [Rev. Mod. Phys. **83**, 1057 (2011)](http://link.aps.org/doi/10.1103/RevModPhys.83.1057)
 - C.-X. Liu, X.-L. Qi, H. Zhang, X. Dai, Z. Fang, and S.-C. Zhang, [Phys. Rev. B **82**, 045122 (2010)](http://link.aps.org/doi/10.1103/PhysRevB.82.045122)
 - M. Z. Hasan and C. L. Kane, [Rev. Mod. Phys. **82**, 3045 (2010)](http://link.aps.org/doi/10.1103/RevModPhys.82.3045)
@@ -66,6 +67,7 @@ Reference: J. Cayssol, B. Dóra, F. Simon, and R. Moessner, [Phys. Status Solidi
 Presenter: Aydin Cem Keser
 
 Other relevant references/information:
+
 - N.H. Lindner, G. Refael, and V. Galitski, [Nature Phys. **7**, 490 (2011)](http://dx.doi.org/10.1038/nphys1926)
 
 ### October 17

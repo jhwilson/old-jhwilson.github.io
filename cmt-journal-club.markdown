@@ -86,7 +86,7 @@ Title: [Search for Majorana Fermions in Superconductors](http://dx.doi.org/10.11
 
 Reference: C. W. J. Beenakker, [Ann. Rev. Cond. Matt. Phys. **4**, 113](http://dx.doi.org/10.1146/annurev-conmatphys-030212-184337) (2013)
 
-Presenter: TBA
+Presenter: Andrew Allocca
 
 Other relevant references/information:
 
@@ -130,7 +130,7 @@ Presenter: TBA
 
 Other relevant references/information:
 
-### November 26
+### December 3rd
 
 Title: [Topological insulators and superconductors](http://dx.doi.org/10.1103/RevModPhys.83.1057) -- **Part 2**
 

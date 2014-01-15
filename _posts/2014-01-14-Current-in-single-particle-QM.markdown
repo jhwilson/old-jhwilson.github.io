@@ -139,7 +139,7 @@ $$
 \vartheta = - \sum_{n=0} \sum_{m=0}^n (-1)^{m} i^n \frac{a_{n+1}}{(n+1)!} \overleftarrow{\partial}{}_x^{n-m} \overrightarrow{\partial}{}_x^m.
 $$
 
-Returning all the way to when we were considering $\dot x(t)$ as an integral over position,
+Returning all the way to when we were considering $$\dot x(t)$$ as an integral over position,
 this suggests that in Eq. \\eqref{eq:T-delta}, we want to consider
 
 $$

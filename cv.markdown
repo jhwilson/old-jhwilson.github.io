@@ -5,15 +5,21 @@ title: CV
 
 # Justin Howard Wilson
 
+[PDF of Curriculum Vitae](./Justin_Wilson_CV_0822.pdf)
+
 Department of Physics  
 University of Maryland, CP  
 <a href="mailto:contact@jhwilson.com">contact@jhwilson.com</a>
 
+## Research Interests
+
+Cold atoms; strongly correlated electron systems; mathematical physics; entanglement in condensed matter systems; the Casimir effect as a probe of condensed matter phenomena; topological states of matter; many-body localization.
+
 ## Education
-Ph.D. Physics, University of Maryland, 2007 -- Present  
-M.S. Physics, University of Maryland, 2007 -- 2010  
-B.S. Physics, Texas A&M University, 2003 -- 2007  
-B.S. Mathematics, Texas A&M University, 2003 -- 2007
+Ph.D. Physics, University of Maryland, College Park, 2007 -- Present  
+M.S. Physics, University of Maryland, College Park, 2007 -- 2010  
+B.S. Physics, Texas A&M University, College Park, 2003 -- 2007  
+B.S. Mathematics, Texas A&M University, College Park, 2003 -- 2007
 
 ## Papers in refereed Journals
 - J. H. Wilson, B. M. Fregoso, and V. M. Galitski, [Entanglement dynamics in a non-Markovian environment: an exactly solvable model](http://prb.aps.org/abstract/PRB/v85/i17/e174304), Phys. Rev. B **85**, 174304 (2012). [arXiv:1202.1614](http://arxiv.org/pdf/1202.1614)

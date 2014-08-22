@@ -157,11 +157,11 @@ $$
 which actually integrates the current density! Thus, we have shown that
 
 $$
-j(x) = \psi^*(x,t) \sum_{n=0} \frac{a_{n+1}}{(n+1)!} \sum_{m=0}^n (i \overleftarrow \partial_x)^{n-m} (-i \overrightarrow \partial_x)^m \psi(x,t),
+j(x,t) = \psi^*(x,t) \sum_{n=0} \frac{a_{n+1}}{(n+1)!} \sum_{m=0}^n (i \overleftarrow \partial_x)^{n-m} (-i \overrightarrow \partial_x)^m \psi(x,t),
 $$
 
 and that 
 
-$$\langle \dot x(t) \rangle = \int dx \, j(x). $$
+$$\langle \dot x(t) \rangle = \int dx \, j(x,t). $$
 
 Indeed, $$\dot x(t)$$ does track the current of the problem and can even be written as the integral of a current density. Even for the more arbitrary Hamiltonian $$H = T(p) + V(x)$$.

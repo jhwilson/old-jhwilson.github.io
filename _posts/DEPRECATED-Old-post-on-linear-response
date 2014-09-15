@@ -1,8 +1,4 @@
----
-layout: post
-title: Conductance with single particle Quantum Mechanics
-published: false
----
+
 
 In this post, I explore how to derive conductance in a material where there are no interactions and each particle (or quasi-particle) can be described by a single particle Hamiltonian.
 

@@ -17,11 +17,13 @@ Cold atoms; strongly correlated electron systems; mathematical physics; entangle
 
 ## Education
 Ph.D. Physics, University of Maryland, College Park, 2007 -- Present  
-M.S. Physics, University of Maryland, College Park, 2007 -- 2010  
+M.S. Physics, University of Maryland, College Park, 2007 -- 2011  
 B.S. Physics, Texas A&M University, College Park, 2003 -- 2007  
 B.S. Mathematics, Texas A&M University, College Park, 2003 -- 2007
 
 ## Papers in refereed Journals
+- A. A. Allocca, J. H. Wilson, and V. M. Galitski, [Non-analytic behavior of the Casimir force across a Lifshitz transition in a spin-orbit coupled material](), _Accepted for publication in PRB_. [arXiv:1312.6754](htpp://arxiv.org/pdf/1312.6754)
+- J. H. Wilson, J. Mitchell, and V. M. Galitski, [Probing the structure of entanglement with entanglement moments](), Solid State Comm. **195**, 43-48 (2014). [arXiv.1305.2005](http://arxiv.org/pdf/1305.2005)
 - J. H. Wilson, B. M. Fregoso, and V. M. Galitski, [Entanglement dynamics in a non-Markovian environment: an exactly solvable model](http://prb.aps.org/abstract/PRB/v85/i17/e174304), Phys. Rev. B **85**, 174304 (2012). [arXiv:1202.1614](http://arxiv.org/pdf/1202.1614)
 - J. H. Wilson and V. Galitski, [Breakdown of the coherent state path integral: two simple examples](http://link.aps.org/doi/10.1103/PhysRevLett.106.110401), Phys. Rev. Lett. **106**, 110401 (2011). [arXiv:1012.1328](http://arxiv.org/pdf/1012.1328)
 - G. Berkolaiko, J. Harrison, and J. H. Wilson, [Mathematical aspects of vacuum energy in quantum graphs](http://iopscience.iop.org/1751-8121/42/2/025204), J. Phys. A: Math. Theor. **42**, 025204 (2009). [arXiv:0711.2707v3](http://arxiv.org/pdf/0711.2707)
@@ -36,18 +38,29 @@ B.S. Mathematics, Texas A&M University, College Park, 2003 -- 2007
 - _Ph.D. Dissertation in progress_
 
 ## Invited Talks
-- Conference: "Quantum Graphs, their Spectra and Applications”, Newton Institute, Cambridge, U.K., 2007.
-- Departmental Seminar: Department of Mathematics, Texas A&M University, Texas, 2 November 2007.
-- Conference: "Lie Theory and its Applications in Physics", Varna, Bulgaria, 2011
+- “Entanglement and the Hilbert-Schmidt distance”, Department Seminar: Department of Physics, Boston University, Boston (7 December 2012).
+- “Lie Algebraic approaches to quantum dynamics: The breakdown of the coherent state path integral and the Bose-Hubbard model.” Conference: _Lie Theory and Its Applications in Physics_, Varna, Bulgaria (June 2011)
+- “Generalized Method of Images on Quantum Graphs”, Departmental Seminar: Department of Mathematics, Texas A&M University, Texas (2 November 2007).
+- “The Method of Images on a Quantum Graph”, Conference: Quantum Graphs, their Spectra and Applications, Newton Institute, Cambridge, U.K., (15 March 2007).
 
 ## Contributed Talks
-- Conference: “Quantum Field Theory Under the Influence of External Conditions”, Universit ̈at Leipzig, Germany, 2007.
-- Conference: APS March Meeting, Portland, OR, 2010.
-- Conference: APS March Meeting, Dallas, TX, 2011.
-- Conference: APS March Meeting, Boston, MA, 2012.
-- Conference: APS March Meeting, Baltimore, MD, 2013
+- “Optics of midgap impurity states on a surface of a topological insulator”, APS March Meeting, Denver, CO (March 2014).
+- “Quantum geometry and entanglement in the Rabi model”, _APS March Meeting_, Baltimore, MD (March 2013).
+- “A Lie-algebraic approach to decoherence in a quantum spin system”, _APS March Meeting_, Boston, MA (28 February 2012).
+- “Breakdown of the coherent state path integral: two simple examples”, _APS March Meeting_, Dallas, TX (March 2011).
+- “Path integral representation of a two qubit system”, _APS March Meeting_, Portland, OR (March 2010).
+- “Vacuum Energy in Quantum Graphs”, Conference: _Quantum Field Theory Under the Influence of External Conditions_, Universita ̈t Leipzig, Germany, (September 2007).
 
-## Other Conferences and workshops
-- LMS instructional course: Analysis on Graphs and its Applications, Gregynog Hall, Wales, 2007. (Program participant)
-- “Quantum Field Theory Under the Influence of External Conditions,” University of Oklahoma, Norman, OK, 2009.
-- “Analysis on Graphs and its Applications,” Netwon Institute, Cambridge, U.K., 2010.
+## Contributed Posters
+- “Resonant Faraday and Kerr effects due to in-gap states on the surface of topological insulator”, _GRC/GRS: Correlated electron systems_, Mount Holyoke College, South Hadley, MA (June 2014).
+
+## Other Conferences, workshops, and summer schools
+- _International Conference on Atomic Physics (ICAP) 2014_, Washington, DC (August 2014).
+- _Analysis on Graphs and its Applications Follow-up_, Netwon Institute, Cambridge, U.K., (July 2010).
+- _Quantum Field Theory Under the Influence of External Conditions_, University of Oklahoma, Norman, OK (September 2009).
+
+### Summer schools
+- _Princeton Summer School in Condensed Matter Physics: Quantum Information_, Princeton University, Princeton, NJ (July 2014).
+- _Boulder School 2013: Disorder and dynamics in quantum systems_, Boulder, CO (July-August, 2013)
+- _Princeton Summer School in Condensed Matter Physics: Critical Phenomena and Quantum Computation_, Princeton University, Princeton, NJ (July 2012).
+- _LMS instructional course: Analysis on Graphs and its Applications_, Gregynog Hall, Wales (January 2007).

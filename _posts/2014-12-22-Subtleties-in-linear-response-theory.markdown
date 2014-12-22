@@ -1,14 +1,18 @@
 ---
 layout: post
 title: Subtleties in linear response theory
-published: false
+published: true
 ---
 
 In linear response theory, we consider some small perturbation to a Hamiltonian and look at the response of some observable to that perturbation. In the case considered here, the perturbation is an electric field, and the response is current. The linear response that characterizes these quantities is called the conductance.
 
 There's a problem though, an electric field _accelerates_ a charge. Consider a classical electron for the time being, then
 
-$$ m \ddot x(t) = - e \mathbf{E}. \label{eq:Newton}$$
+$$ 
+\begin{align}
+m \ddot x(t) = - e \mathbf{E}. \label{eq:Newton}
+\end{align}
+$$
 
 Or in terms of current $$j(t) = -e \dot x(t)$$, $$ \frac{d j}{dt} = \frac{e^2}{m} \mathbf{E} $$. From here we can quickly and naively go to frequency space to find $$ j(\omega) = i \frac{e^2/m}{\omega} \mathbf{E}(\omega) $$. Then one might remember that another way to define $$\mathbf{E}$$ is in terms of a vector potential that is purely time-dependent, so $$\mathbf{E}(\omega) = i \omega \mathbf A(\omega)$$. Now, if we just plug this into our linear response for the current, we get
 
@@ -24,7 +28,7 @@ Now, at this point you may have guessed that there's something strange going on 
 
 But what about when $$\mathbf{A}(\omega=0) = \mathbf{A}_0$$? It seems like then we have a true velocity response to an unphysical object. The solution is subtle: At some point in the quick derivation we made an assumption that implied $$\mathbf A(t) \rightarrow 0 $$ at $$ t \rightarrow -\infty$$. This implies that if $$\mathbf A(t) = \mathbf A_0$$ at any finite time, there had to be some time in between where $$d\mathbf A/ dt \neq 0$$. Thus, during that "ramp up" time, an electric field was on and it accelerated the charge to a specific velocity resulting in the current $$j(\omega) = - \frac{ e^2}{m} \mathbf A(\omega)$$.
 
-The assumption is subtle, but the result is rather simple. For now, just assume that $$\mathbf A(-\infty) = 0 $$ and at some $$t_0$$, $$\mathbf A(t_0) = \mathbf A_0$$, then we can integrate Eq. (\ref{eq:Newton}) to obtain the velocity:
+The assumption is subtle, but the result is rather simple. For now, just assume that $$\mathbf A(-\infty) = 0 $$ and at some $$t_0$$, $$\mathbf A(t_0) = \mathbf A_0$$, then we can integrate Eq. \eqref{eq:Newton} to obtain the velocity:
 
 $$ m \dot x (t_0) =  e \int_{-\infty}^{t_0} \frac{d \mathbf A}{d t} d t = e \mathbf A_0. $$
 

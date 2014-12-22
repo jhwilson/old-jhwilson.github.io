@@ -4,7 +4,7 @@ title: Subtleties in linear response theory
 published: false
 ---
 
-In linear response theory, we consider some small perturbation to a Hamiltonian and consider on the response of some observable to that perturbation. In the case considered here, the perturbation is an electric field, and the response is current. The linear response that characterizes these quantities is called the conductance.
+In linear response theory, we consider some small perturbation to a Hamiltonian and look at the response of some observable to that perturbation. In the case considered here, the perturbation is an electric field, and the response is current. The linear response that characterizes these quantities is called the conductance.
 
 There's a problem though, an electric field _accelerates_ a charge. Consider a classical electron for the time being, then
 
@@ -18,7 +18,7 @@ All is well and good, right? Well, not quite. In electromagnetism, the constant 
 
 Wrong.
 
-Before explainging why this is wrong, let's give some further context to this linear response theory. The term $$- e^2/m$$ is actually the single particle term of what is known as the "diamagnetic" response to the conductivity when you add in more electrons (usually distributed in a Fermi distribution). This term persists in quantum mechanics, and no other terms appear to cancel it in the simplest case of $$ H = \frac{p^2}{2m} $$. In fact, while the math becomes more cumbersome, the solution we shall illustate below holds perfectly well for even the multi-electron system.
+Before explainging why this is wrong, let's give some further context to this linear response theory. The term $$- e^2/m$$ is actually the single particle term of what is known as the "diamagnetic" response to the conductivity when you add in more electrons (usually distributed in a Fermi distribution). This term persists in quantum mechanics, and no other terms appear to cancel it in the simplest case of $$ H = \frac{p^2}{2m} $$. In fact, while the math becomes more cumbersome, the solution we shall illustate below holds perfectly well for even the non-interacting multi-electron system.
 
 Now, at this point you may have guessed that there's something strange going on at $$\omega = 0$$ due to the fact that the electric field _accelerates_ the particle and doesn't just have a velocity response. At the $$\omega = 0$$ point, the _physical_ field $$E(\omega)$$ seems to necessarily be equal to zero in the gauge we have prescribed unless $$A(\omega) \sim 1/\omega $$ for small $$\omega$$. This would lead to a divergent $$j(\omega)$$, restoring our faith that the system is accelerating out of control.
 
@@ -47,3 +47,29 @@ Two perfectly legitimate calculations resulting in different results. Firstly, t
 We are left with a dilemma then about pure plain waves $$ A(t) = A(\omega) e^{-i \omega t}$$. How do those function?
 
 Technically, they are outside of the bounds of the Fourier analysis and we can see that simply by the fact that if we tried to do the above procedure, we couldn't have a well defined answer as $$t \rightarrow -\infty$$ (too oscillatory). However, we can approximate the plain wave in terms of an absolutely integrable function $$ A_\delta(t) = A(\omega) e^{-i (\omega + i \delta) t}$$ for any $$\delta >0$$, and everything works. This shows us explicitly that $$t = - \infty$$ does have $$ A_\delta \rightarrow 0$$ for all $$\delta>0$$. And this is the origin of the well known substitution $$\omega \rightarrow \omega + i\delta$$.
+
+The natural question to ask now is how this works for a real system (with dissipation). Why does such a term not exist at zero frequency?
+
+Unless your system is a superconductor, there is some dissipation in the system. 
+The simplest way to include this is classically: When an electron is going at velocity $$\dot x(t)$$ it experiences a "drag" that tends to slow it down.
+Thus, our Newton's equations become
+
+$$ m \ddot x(t) = - m \gamma \dot x(t) - e \mathbf E$$
+
+where $$\gamma$$ describes how much drag the electron experiences. 
+For more disorder, this would be a larger number.
+Playing the same Fourier transform game, we can obtain rather quickly that
+
+$$ j(\omega) = - \frac{e^2}{m} \frac{\omega}{\omega  +i  \gamma}  A(\omega). $$
+
+This is just one step away from the well-known [Drude model](http://en.wikipedia.org/wiki/Drude_model).
+We see that if $$A(t) = A_0$$, then $$j(\omega) = 0$$.
+But our gauge choice that we described before is still in place, the only difference is that our "kick" at $$t=-\infty$$ has an infinite time to dissipate back to rest (the inclusion of $$\gamma$$ above is critical for $$j(\omega=0) =0$$).
+This also suggests a steady state current when $$\mathbf E$$ is constant: $$m\ddot x=0$$ implies $$j = \frac{e^2}{m \gamma} \mathbf E$$.
+Our current relaxes to zero when there's nothing around ($$\mathbf E = 0$$), as we would expect.
+
+When a quantum mechanical description is done---by taking a random disorder potential and averaging over disorder configurations---one obtains similar results.
+The diamagnetic term for a _clean system_ is real and has a physically well defined explanation.
+
+One may not be surprised that this curious "diamagnetic term" occurs for superconductors, however it is sometimes explained that "gauge symmetry is broken" and that is why such a term exists.
+This is a misleading statement, but one I will explore in a future post.

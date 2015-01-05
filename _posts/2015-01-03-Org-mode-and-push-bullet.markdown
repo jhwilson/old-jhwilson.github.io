@@ -41,6 +41,7 @@ I cobbled together some python code with help from the org-mode site explaining 
 
 It's important to note that the `loadfile` must define `org-agenda-files`. Additionally, I had problems if the `loadfile` tried to do too much upon initialization. If your `init` file does too much, you may need to make this `loadfile` something else, something simpler.
 
+
 The push notifications you receive from running this code are specifically tailored to how I wanted them output. One can easily mess around with the section I labeled "PROCESSING Agenda information into notes to send". Additionally, there are more ways than just `pb.push_note` to send information (see the documentation [here](https://github.com/randomchars/pushbullet.py)).
 
 ## Set up Automator

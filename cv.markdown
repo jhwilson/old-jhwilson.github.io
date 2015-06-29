@@ -16,10 +16,15 @@ University of Maryland, CP
 Cold atoms; strongly correlated electron systems; mathematical physics; entanglement in condensed matter systems; the Casimir effect as a probe of condensed matter phenomena; topological states of matter; many-body localization.
 
 ## Education
-Ph.D. Physics, University of Maryland, College Park, 2007 -- 2015  
-M.S. Physics, University of Maryland, College Park, 2007 -- 2011  
-B.S. Physics, Texas A&M University, College Park, 2003 -- 2007  
-B.S. Mathematics, Texas A&M University, College Park, 2003 -- 2007
+Ph.D. Physics, University of Maryland, College Park, 2007 -- 2015.  
+M.S. Physics, University of Maryland, College Park, 2007 -- 2011.  
+B.S. Physics, Texas A&M University, College Park, 2003 -- 2007.  
+B.S. Mathematics, Texas A&M University, College Park, 2003 -- 2007.
+
+## Employment
+- Postdoctoral Research, California Institute of Technology, Pasadena, CA, 2015 -- Present.
+- Graduate Teaching/Research Assistant, University of Maryland, College Park, MD, 2007 -- 2015.
+- Undergraduate Research Assistant, Texas A&M University, College Station, TX, 2006.
 
 ## Papers in refereed Journals
 - A. A. Allocca, J. H. Wilson, and V. M. Galitski, [Quantum interference phenomena in the Casimir effect](http://dx.doi.org/10.1103/PhysRevA.91.062512), _Phys. Rev. A_ **91**, 062512 (2015). [arXiv:1501.06096](http://arxiv.org/abs/1501.06096)

@@ -7,8 +7,8 @@ title: CV
 
 [PDF of Curriculum Vitae](./Justin_Wilson_CV_0615.pdf) 
 
-Department of Physics  
-University of Maryland, CP  
+California Institute of Technology  
+Department of Physics, Pasadena, CA   
 <a href="mailto:contact@jhwilson.com">contact@jhwilson.com</a>
 
 ## Research Interests

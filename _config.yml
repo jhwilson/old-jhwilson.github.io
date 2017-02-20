@@ -1,5 +1,6 @@
+gems: [jekyll-paginate]
 paginate: 5
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 name: Justin Howard Wilson's blog

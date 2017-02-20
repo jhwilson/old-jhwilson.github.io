@@ -19,7 +19,7 @@ $$\begin{align}
   h(\mathbf p) = \mathbf d(\mathbf p) \cdot \sigma,
 \end{align}$$
 
-where $\mathbf d$ is 3D, $$\mathbf p$$ is 2D, and $$\sigma = (\sigma_x, \sigma_y, \sigma_z)$$, the vector of Pauli matrices. The initial states of the system can be represented by where they are on the Bloch sphere $$-\hat{\mathbf d}(\mathbf p)$$. But once a pulse is supplied, this state will begin to rotate about a different vector $$\mathbf d(\mathbf p - e \mathbf A)$$. Thus, if we add time dependence to $$\hat{\mathbf d}(\mathbf p, t)\equiv -\langle \sigma(t) \rangle$$ to represent the state's location, we can use Heisenberg's equations of motion to obtain
+where $$\mathbf d$$ is 3D, $$\mathbf p$$ is 2D, and $$\sigma = (\sigma_x, \sigma_y, \sigma_z)$$, the vector of Pauli matrices. The initial states of the system can be represented by where they are on the Bloch sphere $$-\hat{\mathbf d}(\mathbf p)$$. But once a pulse is supplied, this state will begin to rotate about a different vector $$\mathbf d(\mathbf p - e \mathbf A)$$. Thus, if we add time dependence to $$\hat{\mathbf d}(\mathbf p, t)\equiv -\langle \sigma(t) \rangle$$ to represent the state's location, we can use Heisenberg's equations of motion to obtain
 
 $$\begin{align}
   \hbar \frac{\partial \hat{\mathbf d}(\mathbf p, t)}{\partial t} = 2\mathbf{d}(\mathbf p - e\mathbf A) \times \hat{\mathbf{d}}(p, t).
